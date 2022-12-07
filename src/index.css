@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  width: 540px;
+  margin: 0 auto;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 2em;
+  color: #d46e58;
+}
+
+.header button {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #71cbd0;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #369fa5;
+}
+
+.notes_list{
+  background: #eee;
+  box-shadow:#999 1px 1px 3px;
+  margin:30px 0;
+  padding-top:40px;
+  min-height:200px;
+  width:100%;
+  display:block;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.date {
+  position:absolute;
+  top:0;
+  left:0;
+  padding:15px;
+  font-size:0.7em;
+  font-style: italic;
+  color:#71CBD0;
+}
+
+.icons {
+  position:absolute;
+  right:0;
+  top:0;
+  padding:10px;
+}
+
+
+.note_text{
+  font-size:1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  border:none;
+  box-shadow:none;
+  margin:0;
+  width:100%;
+  height:300px;
+  background:#f9f9f9;
+}
+
+pre, code {
+  background:#ededed;
+}
+
+.note_head_btn{
+  border: none;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card_body {
+  width: 100%;
+  height: 100%;
+  padding: 0 5px;
+  display:inline-block;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
